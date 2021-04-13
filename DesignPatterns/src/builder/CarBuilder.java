@@ -1,16 +1,12 @@
-package Builder;
+package builder;
 
-public class CarManualBuilder implements Builder {
-	private CarType carType;
+public class CarBuilder implements Builder {
 	private int seats;
 	private Engine engine;
 	private Transmission transmission;
 	private TripComputer tripComputer;
 	private GPSNavigator gpsNavigator;
-
-	public void setCarType(CarType carType) {
-		this.carType = carType;
-	}
+	private CarType type;
 
 	public void setSeats(int seats) {
 		this.seats = seats;
@@ -28,17 +24,17 @@ public class CarManualBuilder implements Builder {
 		this.tripComputer = tripComputer;
 	}
 
-	public void setGpsNavigator(GPSNavigator gpsNavigator) {
+	public Car getResult() {
+		return new Car(type, seats, engine, transmission, tripComputer, gpsNavigator);
+	}
 
+	@Override
+	public void setCarType(CarType type) {
+		this.type = type;
 	}
 
 	@Override
 	public void setGPSNavigator(GPSNavigator gpsNavigator) {
 		this.gpsNavigator = gpsNavigator;
 	}
-
-	public Manual getResult() {
-		return new Manual(carType, seats, engine, transmission, tripComputer, gpsNavigator);
-	}
-
 }

@@ -1,4 +1,4 @@
-package Builder;
+package builder;
 
 /**
  * Builder interface defines all possible ways to configure a product.

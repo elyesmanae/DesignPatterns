@@ -1,4 +1,4 @@
-package Builder;
+package builder;
 
 public class Manual {
 	private CarType carType;
