@@ -6,17 +6,17 @@ They give generalised solutions in the form of templates that may be applied to 
 Design patterns are a powerful tool for software developers. However, they should not be seen as prescriptive specifications for software. 
 It is more important to understand the concepts that design patterns describe, rather than memorising their exact classes, methods and properties. It is also important to apply patterns appropriately. 
 Using the incorrect pattern for a situation or applying a design pattern to a trivial solution can overcomplicate your code and lead to maintainability issues.
-### +Creational Patterns
+- ### Creational Patterns
 
-#####  -Abstract Factory
+  - ##### Abstract Factory
 
-#####  -Factory Method
+##### Factory Method
 
-#####  -Builder
+##### Builder
 
-#####  -Prototype
+##### Prototype
 
-#####  -Singleton
+##### Singleton
 
 ### +Structural Patterns
 ### +Behavioral Patterns
