@@ -10,13 +10,13 @@ Using the incorrect pattern for a situation or applying a design pattern to a tr
 
   - ##### Abstract Factory
 
-##### Factory Method
+  - ##### Factory Method
 
-##### Builder
+  - ##### Builder
 
-##### Prototype
+  - ##### Prototype
 
-##### Singleton
+  - ##### Singleton
 
-### +Structural Patterns
-### +Behavioral Patterns
+- ### Structural Patterns
+- ### Behavioral Patterns
